@@ -21,6 +21,6 @@ class School
   end
 
   def sort
-    @roster = @roster.each_pair{|key, value| @roster[key] = value.sort}
+    @roster.each_pair{|key, value| @roster[key] = value.sort}
   end
 end
